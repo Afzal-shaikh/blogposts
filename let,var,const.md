@@ -59,6 +59,7 @@ first of all let and const cannot be redefined like var
 no way to use the same variable name again 
 
 ```js
+
     let x = 100;
     let x = 300 ; //will not work and will scream at you in red 
 ```
