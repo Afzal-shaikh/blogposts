@@ -48,7 +48,7 @@ which means in a long code you can define a variable twice by mistake  and then 
 
 
 
-mainly these aree the points where  _Var_ differs with _let_ and _const_
+mainly these are the points where  _Var_ differs with _let_ and _const_
  you can learn more about _var_ about [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var "MDN Webdocs Var")
 
 
@@ -59,6 +59,7 @@ first of all let and const cannot be redefined like var
 no way to use the same variable name again 
 
 ```js
+
     let x = 100;
     let x = 300 ; //will not work and will scream at you in red 
 ```
